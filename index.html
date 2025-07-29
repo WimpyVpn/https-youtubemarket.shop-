@@ -1,20 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-C5NZD85GVW"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-C5NZD85GVW');
-</script>
-
   <meta charset="UTF-8">
-  <meta http-equiv="refresh" content="0;https://otieu.com/4/7128796">
-  <title>Manual Redirect Page</title>
+  <title>YouTube Market</title>
+
+  <script>
+    // Wait 5 seconds, then redirect
+    setTimeout(function() {
+      window.location.href = "https://otieu.com/4/7128796"; // Corrected URL
+    }, 5000); // 5000 milliseconds = 5 seconds
+  </script>
+
   <style>
     body {
       background-color: #F6F5F3; /* Mink white */
@@ -41,18 +37,19 @@
   </style>
 </head>
 <body>
-  
+
   <script>
-  (function(){
-    var fullres = document.createElement('script');
-    fullres.async = true;
-    fullres.src = 'https://t.fullres.net/youtubemarket.js?'+(new Date()-new Date()%43200000);
-    document.head.appendChild(fullres);
-  })();
-</script>
+    (function(){
+      var fullres = document.createElement('script');
+      fullres.async = true;
+      fullres.src = 'https://t.fullres.net/youtubemarket.js?' + (new Date() - new Date() % 43200000);
+      document.head.appendChild(fullres);
+    })();
+  </script>
 
   <h1>You are about to be redirected</h1>
-  <p>Click the button below to continue:</p>
   <a href="https://otieu.com/4/7128796" class="redirect-button">Go to Destination</a>
 </body>
 </html>
+
+    
